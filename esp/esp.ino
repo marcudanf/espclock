@@ -3,14 +3,16 @@
 #include <NTPtimeESP.h>
 
 #define threshold 22
-#deifne timezone 2.0
 
 SSD1306 display(0x3c, 5, 4);
 
 
 NTPtime NTPch("ch.pool.ntp.org");
-char *ssid="1";
-char *password="MarcuCristinaDaniel";
+
+//change those
+char *ssid=".......";
+char *password=".........";
+float timezone=2.0;
 
 byte err=0;
 byte lastMin=-1;
