@@ -2,7 +2,7 @@
 
 #include <NTPtimeESP.h>
 
-#define threshold 22
+#define threshold 35
 
 SSD1306 display(0x3c, 5, 4);
 
