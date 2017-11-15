@@ -1,3 +1,10 @@
+#if defined(esp8266)||defined(ESP8266)
+#include <ESP8266WiFi.h>
+#endif
+#if defined(esp32)||defined(ESP32)
+#include <WiFi.h>
+#endif
+
 #include "SSD1306.h"
 
 #include <NTPtimeESP.h>
